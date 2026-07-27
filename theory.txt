@@ -24,8 +24,7 @@ r-read
 u-update
 d-delete
 
-WapMV6RKcGIeverk
-mongodb+srv://nivi:WapMV6RKcGIeverk@backend-course.lp95xfs.mongodb.net/
+
 
 
 Authentication
@@ -48,3 +47,15 @@ Token Based Authentication
 4- server sends this token to the registered user
 5- user wants to access something so user sends the copy of the token
 6- server gets the request and permits the user 
+
+
+
+server can add or modify the cookie storage in short cookie act as the admin of cookie
+cookie pe jo bhi data rhega vo sara data server pe jaega hi jaega
+
+
+express server pe agar cookie ka use krna h to u need to to use a middleware cookie-parser
+
+
+why token??
+for user as we give token to user so if user wants to request something it request with its user as token gets saved in server so it automatically reaches to server with every userr
