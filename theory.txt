@@ -1,0 +1,50 @@
+Api- it helps two software applications to communicate with each other, exchange data
+like frontend communicates with backend
+
+RestAPi--if u want to communicate two software application u need to follow http protocols (get, post, patch, delete, put)
+
+GET- to get/fetch data from server
+post - jb server par data send krna ho
+patch - data server pr already present hor us data ko update krna ho
+delete- server pr data h or use delete krna h
+
+
+middleware
+
+
+server data is stored inside db which is there in mumbai
+server needs to be connected with db to store data it will be connected through internet
+internet se kuch bhi connect hota h to hr ek device ko ip address diya jata helpsto hm db ko apne ip address denge ki ap sirf hmare ip address wale device se connect krna
+
+
+main db operation
+CRUD
+c-create
+r-read
+u-update
+d-delete
+
+WapMV6RKcGIeverk
+mongodb+srv://nivi:WapMV6RKcGIeverk@backend-course.lp95xfs.mongodb.net/
+
+
+Authentication
+
+Validation - to check the format of data
+
+verification - to check that the we're getting is write or not
+
+Authentication - if there are more than one user and one of them is sending request so how to find which one is sending request 
+so identifying that user is called identifincation
+
+Authorization - ek user kya kya kr skta h that is Authorization
+identifies that is a person authorized to visit this page
+
+
+Token Based Authentication
+1- registration: name, email, password
+2- server saves the data and generates a Token
+3- token stores the user data
+4- server sends this token to the registered user
+5- user wants to access something so user sends the copy of the token
+6- server gets the request and permits the user 
