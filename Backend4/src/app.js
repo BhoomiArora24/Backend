@@ -8,7 +8,7 @@ const postRoutes = require("./routes/post.routes.js")
 const app = express();
 
 app.use(express.json());
-app.use(cookieParser());
+app.use(cookieParser());//is an Express middleware that reads cookies sent by the browser and makes them available in req.cookies.
 
 
 //API/AUTH IS PREFIX
