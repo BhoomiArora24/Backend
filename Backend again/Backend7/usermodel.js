@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect(`mongodb://103.211.15.134/32/backend7`)
+mongoose.connect(`mongodb+srv://nivi:WapMV6RKcGIeverk@backend-course.lp95xfs.mongodb.net/chachavidhayak`)
 
 //mongoose.Schema-- method that has an object inside it 
 //it will have all the fields u want a user to have
